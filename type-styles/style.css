@@ -1,0 +1,100 @@
+body{
+    margin-left: 60px;
+}
+
+section {
+    margin-bottom: 60px; 
+}
+
+p {
+    margin: 5px 0; 
+}
+
+.crimson{
+    font-family: "Crimson Text", serif;
+    font-size: 24px;
+}
+
+.normal{
+    font-weight: normal;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+h1{
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+h2{
+    color: rgb(172, 172, 172);
+    font-size: 40px;
+    margin: 5px 0;
+}
+
+h3{
+    font-size: 18px;
+    color: rgb(172, 172, 172);
+    font-weight: lighter;
+    font-style: italic;
+    margin: 5px 0;
+}
+
+.normalStyle{
+    font-style: normal;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.normalSpacing{
+    letter-spacing: normal;
+}
+
+.wide{
+    letter-spacing: 0.3em;
+}
+
+.narrow{
+    letter-spacing: -0.06em;
+}
+
+.noDecoration{
+    text-decoration: none;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.linethrough{
+    text-decoration: line-through;
+}
+
+.overline{
+    text-decoration: overline;
+}
+
+.noTransform{
+    text-transform: none;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.lowercase{
+    text-transform: lowercase;
+}
+
+.capitalize{
+    text-transform: capitalize;
+}
+
+.sectionStyling{
+    line-height: 1px;
+    margin-bottom: 40px;
+}
