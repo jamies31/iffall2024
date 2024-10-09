@@ -1,0 +1,163 @@
+*{
+    font-family: "Archivo Narrow", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin: 0;
+}
+
+.intro{
+    text-align: center;
+    padding-top: 166px;
+    padding-bottom: 180px;
+    background-image: url(images/apple.jpg);
+    color: white;
+    text-shadow: -2px -2px 2px black;
+}   
+
+h1{
+    display: block;
+    font-size: 80px;
+    font-weight: bold;
+    margin: 0;
+    line-height: 1;
+}
+
+h2{
+    margin-top: 16px;
+    margin: 0;
+    line-height: 1;
+    font-size: 30px;
+    margin-block-start: 0.55em;
+    margin-block-end: 0.8em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.section-one {
+    height: 680px;
+    background-color: rgb(218, 218, 255);
+    margin: 0;
+    display: block;
+    padding-bottom: 0;
+    padding-top: 30px; 
+}
+
+.section-one-div{
+    width: 960px;
+    margin: 0 auto;
+}
+
+h3{
+    margin: 0;
+    line-height: 1;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 38px;
+}
+
+.paragraph{
+    font-size: 18px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    width: 100%;
+}
+
+.right-pic{
+    width: 400px;
+    height: 300px;
+    float: right; 
+    margin-left: 28px;
+    margin-bottom: 25px;
+}
+
+.section-two h3{
+    margin-top: 0;
+}
+
+.section-two {
+    height: 650px;
+    margin-bottom: 0;
+    padding-top: 37px; 
+    padding-bottom: 0px;
+}
+
+.section-grid {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-grid li {
+    display: block;
+    width: 50%;
+    margin-bottom: 0.6em;
+}
+
+.grid {
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1.25fr;
+}
+
+ul ul {
+    list-style-type: circle;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+h4 {
+    margin: 0;
+    margin-left: 0;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.section-grid{
+    width: 960px;
+    padding-top: 0;
+    display: grid;
+    grid-gap: 22px;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto; 
+}
+
+.grid-item{
+    width: 400px;
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.grid-item p{
+    margin-top: 0;
+    font-size: 18px;
+}
+
+
+.section-three {
+    background-color: rgb(218, 218, 255);
+    height: 340px;
+    margin: 0 auto;
+    padding-top: 39px; 
+}
+
+.section-three-div{
+    margin: 0 auto;
+    width: 740px;
+}
+
+.section-three-text{
+    text-align: center;
+    font-size: 27px;
+}
+
+footer{
+    font-size: 18px;
+    width: 970px;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
