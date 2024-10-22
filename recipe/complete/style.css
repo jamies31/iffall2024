@@ -1,0 +1,134 @@
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(240, 79, 106);
+    color: white;
+    text-align: center; 
+    padding: 15px 0; 
+    font-size: 24px;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+body{
+    margin: 0;
+    font-family: "Josefin Sans", sans-serif;
+    background-color: rgb(236, 254, 236);
+    font-size: 20px;
+    color:rgb(1, 88, 88);
+    line-height: 1.6;
+}
+
+.padding-body{
+    padding: 90px;
+    margin: 0 auto;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.navbar-title{
+    margin-left: 20px;
+    text-align: left;
+}
+
+h1{
+    color: rgb(240, 79, 106);
+    font-size: 70px;
+    margin-bottom: 0;
+    text-align: center; 
+}
+
+h2{
+    color: rgb(33, 193, 193);
+    font-size: 30px;
+}
+
+a{
+    color: rgb(33, 193, 193);
+    text-decoration: none;
+    border-bottom: 1px dashed rgb(33, 193, 193);
+}
+
+img{
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    display: block;
+    margin: 0 auto;
+}
+
+.banner-section {
+    background-image: url('images/hwachae.png'); 
+    background-repeat: repeat;          
+    background-size: 150px 150px;
+    height: 150px; 
+    width: 100%;
+}
+
+.box {
+    border: 2px solid rgb(33, 193, 193);
+    padding: 20px;
+    margin: 20px 0;
+    background-color: rgb(255, 254, 223); 
+    border-radius: 10px; 
+}
+
+.flex-ing-and-mat{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px; 
+}
+.flex-ing-and-mat > div {
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    .flex-ing-and-mat {
+        flex-direction: column;
+    }
+
+    .banner-section {
+        height: 150px;
+    }
+
+    body {
+        padding: 15px;
+        font-size: 16px;
+    }
+}
+
+.image-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    height: auto;
+    width: 100%;
+    margin-left: auto; 
+    margin-right: auto; 
+    flex-wrap: wrap;
+}
+
+.hwachae {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    display: block;
+    object-fit: cover;
+}
+
+.instructions li{
+    margin-top: 25px;
+}
